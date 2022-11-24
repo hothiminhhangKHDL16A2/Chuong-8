@@ -24,10 +24,10 @@ else: print("Vui lòng chọn lại mã loại phòng.")
 if b==1:
     print("Giá  tiền phải trả là:",c,"đồng.")
 elif b==2:
-    print("Giá  tiền phải trả là:",c+c*(b-1)*0.75,"đồng.") 
+    print("Giá  tiền phải trả là:",c*b*0.75,"đồng.") 
 elif b==3:
-    print("Giá  tiền phải trả là:",c+c*(b-1)*0.75,"đồng.") 
+    print("Giá  tiền phải trả là:",c*b*0.75,"đồng.") 
 elif b>=4:
-    print("Giá  tiền phải trả là:",c+2*c*0.75+c*(b-3)*0.7,"đồng.")       
+    print("Giá  tiền phải trả là:",c*b*0.7,"đồng.")       
 else:
     print("Vui lòng nhập lại số đêm.")
