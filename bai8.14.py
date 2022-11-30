@@ -1,7 +1,7 @@
-print("Nhập n:")
-n=eval(input(""))
-a = int(input("Nhập số nguyên thứ 1:"))
-b = int(input("Nhập số nguyên thứ 2:"))
-c = int (input("Nhập số nguyên thứ 3:"))
-S = a+b+c
-print("Tổng S:", S)
+a = int(input("nhập số nguyên N: "))
+b = 0
+for i in range(1, a+1):
+    print("nhập số hạng thứ:", i)
+    b1 = int(input())
+    b = b + b1
+print("tổng",a,"số hạng là ", b)
